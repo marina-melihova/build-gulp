@@ -12,7 +12,7 @@
   "homepage": "https://marina-melihova.github.io/build-gulp",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marina-melihova/build-gulp.git"
+    "url": "git+https://github.com/luxplanjay/gulp-starter-kit"
   },
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "MIT",

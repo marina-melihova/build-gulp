@@ -31,26 +31,9 @@
   }
 }
 
-.services__item-icon_alarm {
-  background-image: url('../images/icons/alarm.svg');
-}
-
-.services__item-icon_graph {
-  background-image: url('../images/icons/graph.svg');
-}
-
-.services__item-icon_monitor {
-  background-image: url('../images/icons/monitor.svg');
-}
-
-.services__item-icon_book {
-  background-image: url('../images/icons/book.svg');
-}
-
-.services__item-icon_home {
-  background-image: url('../images/icons/home.svg');
-}
-
-.services__item-icon_digital {
-  background-image: url('../images/icons/digital.svg');
-}
+@include generate-icons(
+  'services__item-icon_',
+  $icons,
+  '../images/icons/',
+  'svg'
+);
