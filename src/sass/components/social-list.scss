@@ -1,0 +1,50 @@
+.social-link-icon {
+  fill: $primary-accent-color;
+  transition: all 0.5s linear;
+
+  &_facebook {
+    width: 13px;
+    height: 26px;
+  }
+
+  &_twitter {
+    width: 26px;
+    height: 21px;
+  }
+
+  &_pinterest {
+    width: 20px;
+    height: 26px;
+  }
+
+  &_instagram {
+    width: 26px;
+    height: 26px;
+  }
+}
+
+.social-list {
+  display: flex;
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: $secondary-color;
+    transition: all 0.5s linear;
+
+    &:hover,
+    &:focus {
+      background-color: $primary-accent-color;
+
+      .social-link-icon {
+        fill: $white-color;
+      }
+    }
+
+    .social-list__item:not(:last-child) & {
+      border-right: 1px solid $primary-accent-color;
+    }
+  }
+}

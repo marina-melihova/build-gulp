@@ -1,0 +1,37 @@
+.hero {
+  padding: 240px 0 230px;
+  text-align: center;
+  color: $white-color;
+  background-image: $gradient-color, url('../img/eagle.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  @media (min-height: 640px) and (max-height: 950px) {
+    height: 100vh;
+    padding-top: calc((100vh - 578px) / 2 + 40px);
+    padding-bottom: calc((100vh - 578px) / 2 - 40px);
+  }
+
+  @media (min-resolution: 192dpi) {
+    background-image: $gradient-color, url('../img/eagle@2x.jpg');
+  }
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 125px;
+    text-transform: uppercase;
+    font-size: 150px;
+    line-height: 1;
+    font-weight: 700;
+
+    @media (min-height: 640px) and (max-height: 950px) {
+      margin-bottom: 80px;
+    }
+
+    .title-decor {
+      font-size: 72px;
+      margin-bottom: 68px;
+    }
+  }
+}

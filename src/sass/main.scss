@@ -1,0 +1,16 @@
+@import 'normalize.scss';
+@import './helpers/variables.scss';
+@import './helpers/placeholders.scss';
+@import './helpers/mixins.scss';
+@import 'base.scss';
+
+@import './components/decors.scss';
+@import './components/buttons';
+@import './components/sections';
+@import './components/social-list';
+
+@import './sections/header.scss';
+@import './sections/hero.scss';
+@import './sections/services.scss';
+@import './sections/team.scss';
+@import './sections/footer.scss';

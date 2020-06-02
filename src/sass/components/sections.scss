@@ -1,0 +1,32 @@
+.sections {
+  padding-top: 80px;
+  padding-bottom: 15px;
+
+  &__header {
+    text-align: center;
+    margin-bottom: 45px;
+
+    &-title {
+      margin-top: 0;
+      text-transform: uppercase;
+      font-size: $h2-size;
+      font-weight: 700;
+
+      &::after {
+        content: '';
+        display: block;
+        margin: 40px auto 0;
+        width: 60px;
+        height: 3px;
+        background-color: $primary-accent-color;
+      }
+    }
+
+    &-description {
+      padding: 45px 125px 50px;
+      color: $secondary-dark-color;
+      font-family: $secondary-font;
+      line-height: 24px;
+    }
+  }
+}
